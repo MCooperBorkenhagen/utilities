@@ -5,6 +5,10 @@
 library(tidyverse)
 library(janitor)
 library(skimr)
+library(PerformanceAnalytics)
+
+cor_matrix = chart.Correlation
+
 
 # Credit to John Curtin and his lab at UW-Madison for sharing with me their
 # great inventory of EDA tools.
