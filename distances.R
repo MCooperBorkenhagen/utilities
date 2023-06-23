@@ -31,4 +31,5 @@ distance_matrix_to_long = function(m, words = NA){
       select(word_1 = word.x, word_2 = word.y, distance)
 
    return(long_format)}
+  }
 
