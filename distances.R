@@ -29,6 +29,6 @@ distance_matrix_to_long = function(m, words = NA){
       left_join(indices, by = c("row_index" = "index")) %>% 
       left_join(indices, by = c("column_index" = "index")) %>% 
       select(word_1 = word.x, word_2 = word.y, distance)
-    
-  }
+
+   return(long_format)}
 
